@@ -40,6 +40,10 @@
     border-radius: 10px;
 }
 
+.btn:hover {
+    cursor: pointer;
+}
+
 span {
     display: block;
     margin-top: 0.5rem;
