@@ -25,8 +25,8 @@
     "one two three clear"
     "four five six plus"
     "seven eight nine minus"
-    "zero zero times divid"
-    "zero zero eval eval";
+    "zero del times divid"
+    "zero dot eval eval";
     grid-gap: 0.3rem;
 }
 
@@ -117,4 +117,16 @@ span {
 
 .btn-eval {
     grid-area: eval;
+}
+
+.btn-dot {
+    grid-area: dot;
+}
+
+.btn-disabled {
+    background-color: gray;
+}
+
+.btn-del {
+    grid-area: del;
 }
